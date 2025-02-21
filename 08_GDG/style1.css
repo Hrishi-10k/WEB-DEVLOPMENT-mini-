@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');  
+body{ 
+    margin: 0; 
+    padding: 0; 
+    background: white; 
+    /* background-image: url(https://rare-gallery.com/thumbs/993011-sky-gradient-clear-sky-cyan-cyan-background.png);  */
+    background-size: 1519px 650px; 
+    overflow-x: hidden; 
+    background-repeat: no-repeat; 
+    font-family: "Aria"; 
+    height: fit-content;
+    background-image: linear-gradient(white,skyblue);
+    background-size:contain;
+    margin-left: 0%;
+    
+} 
+.cs{
+    margin-left: 103%;
+}
+
+.cs button{ 
+    background-color: white;
+    color: black;
+    float: right;
+    margin-top: 1%;
+    margin-right: 589px;
+    border-radius: 563px;
+    height: 44px;
+    width: 145px;
+    color: black;
+    font-weight: 700;
+    border: -2px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    border: black solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cs button:hover{
+    background: skyblue;
+    cursor: pointer;
+}
+
+.center-text{ 
+    color:black;
+    border: white; 
+     margin-top: 10%; 
+    text-align: center;
+    font-weight: 1000; 
+    font-size: 55px; 
+    background: none; 
+} 
+.middle-text{ 
+    color:black; 
+    font-size: 30px; 
+    font-weight:500; 
+    text-align: center;
+    background: none; 
+}   
+.logo{
+    height: 98px;
+}
+.logo img{
+    margin-left: 50px;
+    height: 75px;
+    width: 468px;
+    margin-top: 25px;   
+}
+.topright{
+    background-color: rgb(190, 232, 248);
+    float: right;
+    margin-top: -458px;
+    margin-right: 204px;
+    border-radius: 9px;
+    height: 44px;
+    width: 145px;
+    color: black;
+    font-weight: 700;
+    border: -2px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding: 10px;
+}
+
+.two button{
+    background-color: rgb(190, 232, 248);
+    float: right;
+    margin-top: -458px;
+    margin-right: 60px;
+    border-radius: 9px;
+    height: 44px;
+    width: 133px;
+    color: black;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    border: black solid 1px;
+}
+.two button:hover{
+    background-color:rgb(199, 235, 249);
+    cursor: pointer;
+    border: blue;
+}
+.poster img{
+    margin-top: 53px;
+    margin-left: 60%;
+    border:solid 3px black;
+}
+
+.points ul{
+    margin-top: -350px;
+    font-size: large;
+}
+.points ul p{
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+li{
+    background: rgb(183, 222, 237);
+  margin: 10px;
+  padding: 7px;
+  transition: all 1s ease;
+}
+
+footer{
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+    margin-top:6% ;
+    height: 20px;
+}
+.container2 img{
+    width: 100%;
+    height: 100%;
+    transform: rotateX(180deg);
+    margin-top: -20%;
+    
+}
+.eve{
+    margin-top: 9%;
+    margin-left:46%;
+}
+
+.container3  li{
+    list-style: none;
+    display: inline;
+    
+}
