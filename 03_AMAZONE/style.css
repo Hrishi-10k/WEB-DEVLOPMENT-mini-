@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+  }
+  .navbar {
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .nav-logo {
+    height: 50px;
+    width: 6rem;
+    cursor: pointer;
+  }
+  .logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+  }
+  .border {
+    border: 2px solid transparent;
+  }
+  .border:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .address {
+    width: 100px;
+  }
+  .add-first {
+    color: #cccccc;
+    font: 10px;
+    margin-left: 15px;
+  }
+  .add-sec {
+    color: #ffffff;
+    font: 12px;
+    margin-left: 5px;
+  }
+  .add-logo {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  /* box 3 */
+  .nav-search {
+    display: flex;
+    width: 55%;
+    height: 40px;
+    justify-content: space-evenly;
+    margin-left: 10px;
+  }
+  .search-select {
+    cursor: pointer;
+    width: 65px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border: none;
+  }
+  .search-box {
+    width: 100%;
+    border: none;
+    border-style: none;
+    outline: none;
+  }
+  
+  .search-logo {
+    display: flex;
+    width: 45px;
+    background-color: #febd69;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.25rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+  }
+  .nav-search:hover {
+    border: 2px solid orange;
+  }
+  
+  /* box 4 */
+  
+  .america {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .america-flag {
+    background-image: url("america_flag.png");
+    width: 21px;
+    height: 16px;
+    background-size: cover;
+    margin: 5px;
+  }
+  .america-name {
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .down-arrow {
+    font-size: 14px;
+    margin: 6px 0px 0px 2px;
+    color: #cccccc;
+  }
+  /* box 5 */
+  .sign-in {
+    width: 130px;
+    cursor: pointer;
+  }
+  .line-1 {
+    font-size: 12px;
+    padding-left: 0.5rem;
+  }
+  .line-2 {
+    font-size: 14px;
+    padding-left: 0.5rem;
+    font-weight: 700;
+  }
+  .arrow {
+    color: #cccccc;
+  }
+  /* box 6 */
+  
+  .orders {
+    width: 70px;
+    cursor: pointer;
+  }
+  .orders .line-1 {
+    font-size: 12px;
+  }
+  .orders .line-2 {
+    font-size: 14px;
+  }
+  
+  /* box 7 */
+  .cart {
+    display: flex;
+    margin: 0.5rem;
+    height: 90%;
+    align-items: center;
+    cursor: pointer;
+  }
+  .cart-logo {
+    font-size: 24px;
+  }
+  .cart-text {
+    font-size: 14;
+    font-weight: 700;
+  }
+  
+  /* panel */
+  
+  .panel {
+    position: relative;
+    height: 2.3rem;
+    background-color: #131921;
+    opacity: 0.9;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 0.4rem;
+  }
+  .panel-all {
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    place-items: center;
+    margin-left: 1.2rem;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .panel-links {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .panel i {
+    margin: 5px;
+    font-size: 20px;
+  }
+  .panel-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 0px 6px 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  /* main */
+  .main {
+    background-image: url("background_image.jpg");
+    /* height: 350px; */
+    height: 21rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+  }
+  .main-text {
+    /* align-self: flex-end; */
+    position: relative;
+    background-color: #f5f6f6;
+    padding: 10px 14px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    top: 80%;
+  }
+  
+  .main-text a {
+    text-decoration: none;
+    color: #007185;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    rotate: 45deg;
+    box-shadow: -2px 2px;
+  }
+  .right-arrow {
+    position: absolute;
+    top: 40%;
+    left: 93%;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    rotate: 45deg;
+    box-shadow: 2px -2px;
+  }
+  
+  /* content */
+  
+  .content-1 {
+    display: flex;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .image-box {
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    cursor: pointer;
+    max-width: 100%;
+  }
+  .box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .box-content a {
+    text-decoration: none;
+    color: #007185;
+  }
+  
+  .box-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* bottom */
+  
+  .sign-in-bottom {
+    width: 100%;
+    max-width: 98.5%;
+    height: 7rem;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .sign-in-bottom .line-1 {
+    font-size: 13px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+  }
+  .sign-in-bottom .sign-in-button {
+    width: 230px;
+    height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #ffca44;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    text-shadow: 0 1px 0 #ffe093;
+    box-shadow: 2px 2px 2px;
+  }
+  .sign-in-bottom .sign-in-button:hover {
+    box-shadow: 4px 4px 4px;
+  }
+  .sign-in-bottom .line-2 {
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .sign-in-bottom .line-2 a {
+    text-decoration: none;
+    color: #007185;
+  }
+  .go-to-home {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    margin-top: 1.5rem;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .go-to-home * {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* footer */
+  
+  .footer {
+    height: 100%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding: 0.3rem 4rem 4rem 4rem;
+  }
+  
+  .footer-box {
+    height: 100%;
+    width: 12rem;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  .footer-box h4 {
+    margin-top: 6px;
+    margin-left: 15px;
+  }
+  .footer-box a {
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+    margin: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .footer-box a:hover {
+    text-decoration: underline;
+  }
+  
+  .end {
+    /* height: 4rem; */
+    border: 2px solid black;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .end .logo {
+    background-image: url("amazon_logo.png");
+    width: 8rem;
+    height: 3.5rem;
+    background-size: cover;
+  }
+  .end-button {
+    width: 50%;
+    display: flex;
+  }
+  .button-1 {
+    height: 3rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  .end-button a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 13px;
+  }
+  .button-1 p {
+    color: white;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 450px) {
+    .navbar {
+      flex-wrap: wrap;
+      height: 100%;
+      max-height: 100%;
+  
+      /* flex-direction: column; */
+    }
+    .address {
+      display: none;
+    }
+    .nav-search {
+      margin-left: 2%;
+      margin-right: 2%;
+      width: 50%;
+      max-width: 100%;
+      /* width:50%; */
+    }
+    .sign-in {
+      display: none;
+    }
+  
+    .america {
+      display: none;
+    }
+    .orders {
+      display: none;
+    }
+    .panel {
+      height: 100%;
+    }
+    .content-1 {
+      flex-direction: column;
+    }
+    .left-arrow {
+      top: 30%;
+      left: 5%;
+    }
+    .right-arrow {
+      position: absolute;
+      top: 30%;
+      left: 85%;
+    }
+    .main-text {
+      height: 2.5rem;
+      margin-bottom: 2rem;
+      top: 70%;
+    }
+    .box {
+      width: 100%;
+    }
+    .main {
+      width: 100%;
+      height: 20rem;
+      background-position: center;
+    }
+    .panel {
+      display: block;
+      height: 3rem;
+    }
+    .panel-links {
+      display: none;
+    }
+    .end-button {
+      flex-wrap: wrap;
+    }
+  }
